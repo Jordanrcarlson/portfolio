@@ -23,21 +23,21 @@ export default class Header extends Component {
           <li><a className="smoothscroll" href="#contact">Contact</a></li>
         </ul> {/* end #nav */}
       </nav> {/* end #nav-wrap */}
+
+
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">I'm {portfolioData.name}.</h1>
-          <h3>I'm a Victoria based <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a className="smoothscroll" href="#about">about me</a> I am a {portfolioData.role}.{portfolioData.roleDescription}</h3>
+          <h2>Jordan Carlson </h2>
+          <h3>A software and electrical engineering student based in Victoria, BC.
+          <span> I am searching for a co-op opportunity for Fall, 2020. </span>
+             I hope you scroll on to see my <a className="smoothscroll" href="#resume"> experience </a> and
+             <a className="smoothscroll" href="#portfolio"> portfolio.</a> </h3>
           <hr />
           <ul className="social">
-            <li><a href="#"><i className="fa fa-facebook" /></a></li>
+            <li><a href="#"><i className="fa fa-github" /></a></li>
             <li><a href="#"><i className="fa fa-twitter" /></a></li>
-            <li><a href="#"><i className="fa fa-google-plus" /></a></li>
             <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-            <li><a href="#"><i className="fa fa-instagram" /></a></li>
-            <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-            <li><a href="#"><i className="fa fa-skype" /></a></li>
+
           </ul>
         </div>
       </div>
