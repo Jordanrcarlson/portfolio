@@ -45,7 +45,7 @@ header:before {
    content: '';
    display: inline-block;
    vertical-align: middle;
-   height: 120%;
+   height: 110%;
 }
 header .banner {
    display: inline-block;
@@ -214,8 +214,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 400px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -223,7 +223,7 @@ ul#nav li.current a { color: #F06000; }
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
+#about .main-col { padding-right: -10%; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
