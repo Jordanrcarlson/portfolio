@@ -670,7 +670,7 @@ call-to-action .button {
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px;
-width: 20%
+width: 15%
 }
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
@@ -685,13 +685,12 @@ width: 20%
    width: 0%;
 }
 #testimonials .contactinfo { width: 50%; }
-#testimonials .picture { width: 40%; }
+#testimonials .picture { width: 30%; }
 
 #testimonials .profile-pic {
    width: 200px;
    height: 200px;
    border-radius: 100%;
-}
 
 /*	Blockquotes */
 #testimonials .banner-text h3 {
