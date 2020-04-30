@@ -684,8 +684,8 @@ width: 10%
    color: #fff;
    width: 0%;
 }
-#testimonials .contactinfo { width: 45%; }
-#testimonials .picture { width: 25%; }
+#testimonials .contactinfo { width: 60%; }
+#testimonials .picture { width: 30%; }
 
 #testimonials .profile-pic {
    width: 200px;
