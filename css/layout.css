@@ -680,9 +680,9 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #fff;
-   width: 10%;
+   width: 5%;
 }
-#testimonials .contactinfo { width: 60%; }
+#testimonials .contactinfo { width: 40%; }
 #testimonials .picture { width: 30%; }
 
 #testimonials .profile-pic {
