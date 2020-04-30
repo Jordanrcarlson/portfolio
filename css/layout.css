@@ -689,7 +689,9 @@ call-to-action .button {
    width: 200px;
    height: 200px;
    border-radius: 100%;
-   min-height: 500px;
+   position: fixed;
+   bottom: 100px;
+   right: 0;
 }
 
 /*	Blockquotes */
