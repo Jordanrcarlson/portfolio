@@ -662,7 +662,7 @@ call-to-action .button {
    padding-bottom: 20px;
 }
 #testimonials h1 {
-   font: 22px/30px 'helvetica', sans-serif;
+   font: 45px/50px 'helvetica', sans-serif;
    letter-spacing: 3px;
    color: #fff;
    width: 80%;
@@ -677,7 +677,7 @@ width: 15%
    content: "\f164";
 	padding-left: 20px;
 	padding-right: 0px;
-	font-size: 72px;
+	font-size: 48px;
    line-height: 72px;
    text-align: left;
    float: left;
