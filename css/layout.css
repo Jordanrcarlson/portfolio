@@ -65,7 +65,7 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
    header .banner-text h2 {
-      font: 90px/1.1em 'Tahoma', sans-serif;
+      font: 90px/1.1em 'tahoma', sans-serif;
       color: #fff;
       letter-spacing: -2px;
       margin: 0 auto 18px auto;
@@ -662,8 +662,7 @@ call-to-action .button {
    padding-bottom: 66px;
 }
 #testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
+   font: 22px/30px 'helvetica', sans-serif;
    letter-spacing: 3px;
    color: #fff;
 }
