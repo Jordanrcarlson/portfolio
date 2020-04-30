@@ -669,7 +669,9 @@ call-to-action .button {
    padding-bottom: 102px;
 }
 #testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
+#testimonials .header-col { padding-top: 9px;
+width: 10%
+}
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f164";
@@ -682,8 +684,8 @@ call-to-action .button {
    color: #fff;
    width: 0%;
 }
-#testimonials .contactinfo { width: 40%; }
-#testimonials .picture { width: 30%; }
+#testimonials .contactinfo { width: 45%; }
+#testimonials .picture { width: 25%; }
 
 #testimonials .profile-pic {
    width: 200px;
