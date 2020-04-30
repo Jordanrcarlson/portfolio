@@ -659,7 +659,7 @@ call-to-action .button {
 }
 #testimonials .text-container {
    padding-top: 50px;
-   padding-bottom: 10px;
+   padding-bottom: 20px;
 }
 #testimonials h1 {
    font: 22px/30px 'helvetica', sans-serif;
@@ -686,7 +686,9 @@ call-to-action .button {
 #testimonials .picture { width: 30%; }
 
 #testimonials .profile-pic {
-   position: top;
+  position: fixed;
+  bottom: 0;
+  right: 0;
    width: 200px;
    height: 200px;
    border-radius: 100%;
