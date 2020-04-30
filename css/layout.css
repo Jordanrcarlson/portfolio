@@ -680,10 +680,10 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #fff;
-   width: 33%;
+   width: 20%;
 }
-#testimonials .contactinfo { width: 33%; }
-#testimonials .picture { width: 33%; }
+#testimonials .contactinfo { width: 60%; }
+#testimonials .picture { width: 20%; }
 
 #testimonials .profile-pic {
    position: relative;
