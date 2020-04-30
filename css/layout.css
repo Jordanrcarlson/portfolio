@@ -665,13 +665,14 @@ call-to-action .button {
    font: 22px/30px 'helvetica', sans-serif;
    letter-spacing: 3px;
    color: #fff;
+   width: 80%;
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f164";
-	padding-right: 10px;
+	padding-right: 0px;
 	font-size: 48px;
    line-height: 72px;
    text-align: left;
