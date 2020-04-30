@@ -682,6 +682,8 @@ call-to-action .button {
    color: #fff;
    width: 20%;
 }
+#testimonials .contactinfo { width: 80%; }
+#testimonials .picture { width: 20%; }
 
 #testimonials .profile-pic {
    position: relative;
