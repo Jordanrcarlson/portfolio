@@ -681,6 +681,13 @@ call-to-action .button {
    color: #fff;
 }
 
+#testimonials .profile-pic {
+   position: relative;
+   width: 400px;
+   height: 210px;
+   border-radius: 100%;
+}
+
 /*	Blockquotes */
 #testimonials .banner-text h3 {
    font: 18px/1.9em 'Arial', sans-serif;
