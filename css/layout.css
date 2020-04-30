@@ -686,10 +686,7 @@ call-to-action .button {
 #testimonials .picture { width: 30%; }
 
 #testimonials .profile-pic {
-   position: absolute;
    width: 200px;
-   height: 200px;
-   border-radius: 100%;
 }
 
 /*	Blockquotes */
