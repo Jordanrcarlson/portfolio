@@ -671,7 +671,7 @@ call-to-action .button {
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f164";
-	padding-right: 0px;
+	padding-right: 10px;
 	font-size: 48px;
    line-height: 72px;
    text-align: left;
