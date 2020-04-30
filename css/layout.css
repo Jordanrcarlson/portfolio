@@ -673,7 +673,7 @@ call-to-action .button {
    font-family: 'FontAwesome';
    content: "\f164";
 	padding-right: 10px;
-	font-size: 72px;
+	font-size: 48px;
    line-height: 72px;
    text-align: left;
    float: left;
@@ -681,7 +681,7 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#testimonials .banner-text h3 {
+#testimonials .banner-text h1 {
    font: 18px/1.9em 'Arial', sans-serif;
    color: #A8A8A8;
    margin: 0 auto;
