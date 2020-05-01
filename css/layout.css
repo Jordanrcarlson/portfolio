@@ -688,7 +688,8 @@ width: 15%
 #testimonials .picture { width: 30%; }
 
 #testimonials .refpic {
-
+max-width = 300;
+max-height = 300;
 }
 
 /*	Blockquotes */
