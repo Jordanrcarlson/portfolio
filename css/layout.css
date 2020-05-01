@@ -687,10 +687,9 @@ width: 15%
 #testimonials .contactinfo { width: 50%; }
 #testimonials .picture { width: 30%; }
 
-#testimonials .profile-pic {
+#testimonials .refpic {
    width: 200px;
    height: 200px;
-   border-radius: 100%;
 }
 
 /*	Blockquotes */
