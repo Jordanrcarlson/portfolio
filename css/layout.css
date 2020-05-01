@@ -670,7 +670,7 @@ call-to-action .button {
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px;
-width: 15%
+width: 10%
 }
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
@@ -684,7 +684,7 @@ width: 15%
    color: #fff;
    width: 0%;
 }
-#testimonials .contactinfo { width: 50%; }
+#testimonials .contactinfo { width: 55%; }
 #testimonials .picture { width: 35%; }
 
 #testimonials .refpic {
