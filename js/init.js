@@ -153,7 +153,13 @@
 
 	      type: "POST",
 	      url: "https://formspree.io/xbjzjjjy",
-	      data: data,
+	      data:{
+          name: contactName,
+          email: contactEmail,
+          subject: contactSubject,
+          message: contactMessage
+
+        }
 	      success: function(msg) {
 
             // Message was sent
