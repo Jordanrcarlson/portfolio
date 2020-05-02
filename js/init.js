@@ -155,10 +155,9 @@
 	      url: "https://formspree.io/xbjzjjjy",
 	      data: data,
 	      }
-
       });
       return false;
    });
 
-
+ }
 });
