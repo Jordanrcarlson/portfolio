@@ -152,7 +152,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "jordanrcarlson@gmail.com",
+	      url: "output.txt",
 	      data: data,
 	      success: function(msg) {
 
