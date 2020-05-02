@@ -152,7 +152,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "index.php",
+	      url: "http://localhost:3002/send",
 	      data: data,
 	      success: function(msg) {
 
