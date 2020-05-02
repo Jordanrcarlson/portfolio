@@ -151,10 +151,10 @@
 
       $.ajax({
 
-	      type: "POST",
+        type: "POST",
 	      url: "https://formspree.io/xbjzjjjy",
 	      data: data,
-        success: function(msg) {
+	      success: function(msg) {
 
             // Message was sent
             if (msg == 'OK') {
@@ -168,8 +168,13 @@
                $('#image-loader').fadeOut();
                $('#message-warning').html(msg);
 	            $('#message-warning').fadeIn();
-            }}
+            }
+
+	      }
+
       });
       return false;
-    });
+   });
+
+
 });
