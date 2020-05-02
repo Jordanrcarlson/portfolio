@@ -152,7 +152,7 @@
       $.ajax({
 
 	      type: "POST",
-	      url: "http://localhost:3002/send",
+	      url: "https://formspree.io/xbjzjjjy",
 	      data: data,
 	      success: function(msg) {
 
