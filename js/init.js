@@ -153,14 +153,7 @@
 
 	      type: "POST",
 	      url: "http://localhost:3002/send",
-	      data: {
-          name: contactName
-          email: contactEmail
-          subject: contactSubject
-          message; contactMessage
-
-        }
-
+	      data: data,
 	      success: function(msg) {
 
             // Message was sent
