@@ -151,8 +151,8 @@
 
       $.ajax({
 
-	      type: "POST",
-	      url: "inc/sendEmail.php",
+        type: "POST",
+	      url: "https://formspree.io/xbjzjjjy",
 	      data: data,
 	      success: function(msg) {
 
@@ -161,7 +161,7 @@
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
-               $('#message-success').fadeIn();   
+               $('#message-success').fadeIn();
             }
             // There was an error
             else {
@@ -173,16 +173,7 @@
 	      }
 
       });
-      return false;
    });
 
 
 });
-
-
-
-
-
-
-
-

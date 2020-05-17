@@ -13,28 +13,30 @@ export default class Header extends Component {
           <h1><span>Get In Touch.</span></h1>
         </div>
         <div className="ten columns">
-          <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+          <p className="lead">If you have any questions, comments, requests,
+          ideas for employment or a project, wish to collaborate, or want to
+          otherwise begin a discussion, you can feel free to email me using
+          this form. Thank you deeply for your time and consideration!
           </p>
         </div>
       </div>
       <div className="row">
         <div className="eight columns">
           {/* form */}
-          <form action method="post" id="contactForm" name="contactForm">
+          <form action = "https://formspree.io/xbjzjjjy" id="contactForm" method = "POST" >
+
             <fieldset>
               <div>
                 <label htmlFor="contactName">Name <span className="required">*</span></label>
-                <input type="text" defaultValue size={35} id="contactName" name="contactName" />
+                <input type="text" defaultValue size={35} id="contactName" name="contactName" defaultValue={""} />
               </div>
               <div>
-                <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
+                <label htmlFor="contactEmail">Email</label>
+                <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" defaultValue={""} />
               </div>
               <div>
                 <label htmlFor="contactSubject">Subject</label>
-                <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
+                <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" defaultValue={""} />
               </div>
               <div>
                 <label htmlFor="contactMessage">Message <span className="required">*</span></label>
@@ -59,46 +61,39 @@ export default class Header extends Component {
           <div className="widget widget_contact">
             <h4>Address and Phone</h4>
             <p className="address">
-              Jonathan Doe<br />
-              1600 Amphitheatre Parkway <br />
-              Mountain View, CA 94043 US<br />
-              <span>(123) 456-7890</span>
+              Jordan Carlson<br />
+              410 1400 Lynburne Pl.<br />
+              Victoria, BC V9B 0A4<br />
+              <span>(250) 818-8963</span>
             </p>
-          </div>
-          <div className="widget widget_tweets">
-            <h4 className="widget-title">Latest Tweets</h4>
-            <ul id="twitter">
-              <li>
-                <span>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                  <a href="#">http://t.co/CGIrdxIlI3</a>
-                </span>
-                <b><a href="#">2 Days Ago</a></b>
-              </li>
-              <li>
-                <span>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi
-                  <a href="#">http://t.co/CGIrdxIlI3</a>
-                </span>
-                <b><a href="#">3 Days Ago</a></b>
-              </li>
-            </ul>
           </div>
         </aside>
       </div>
     </section>
 
 
-      </React.Fragment>
-
-
-
-
-
-
+    </React.Fragment>
 
     );
+  }
+
+
+  submitForm(ev) {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ status: "SUCCESS" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
   }
 }

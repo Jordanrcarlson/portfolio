@@ -17,25 +17,19 @@ export default class Header extends Component {
       <div className="nine columns main-col">
         <div className="row item">
           <div className="twelve columns">
-            <h3>University of Life</h3>
-            <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
+            <h3>University of Victoria</h3>
+            <p className="info">Student <span>•</span> <em className="date">2018-present</em></p>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-              Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+              Entering third year B.ENG student at UVic with a 3.5 (6.0) GPA
             </p>
           </div>
         </div> {/* item end */}
         <div className="row item">
           <div className="twelve columns">
-            <h3>School of Cool Designers</h3>
-            <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
+            <h3>University of Victoria</h3>
+            <p className="info">Co-op Work Term Challenges <span>•</span> <em className="date">Engineering Challenges from 2015-2019</em></p>
             <p>
-              This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-              Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-              nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-              ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+            Completed two work term challenges for credit by formally reporting on engineering challenges faced at Precision Well Servicing.
             </p>
           </div>
         </div> {/* item end */}
@@ -50,25 +44,21 @@ export default class Header extends Component {
       <div className="nine columns main-col">
         <div className="row item">
           <div className="twelve columns">
-            <h3>Awesome Design Studio</h3>
-            <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
+            <h3>Precision Well Servicing</h3>
+            <p className="info">Derrickhand (5-Man Crew Lead Hand)<span>•</span> <em className="date">2015-2019</em></p>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-              Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+            led crews of oil rig workers completing demanding, technical oil and gas engineering
+            operations working long hours and very consistently throughout the 4 years of work.
             </p>
           </div>
         </div> {/* item end */}
         <div className="row item">
           <div className="twelve columns">
-            <h3>Super Cool Studio</h3>
-            <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+            <h3>First Impressions Business Promotions and BBB of Vancouver Island</h3>
+            <p className="info"><span>VP of Sales and Administration</span> <em className="date">2010-2015</em></p>
             <p>
-              This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-              Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-              nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-              ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+            Sales and Administration; managed projects, upheld client relationships,
+            generated new business, conducted ethics reviews, and facilitated graphic design projects.
             </p>
           </div>
         </div> {/* item end */}
@@ -78,24 +68,74 @@ export default class Header extends Component {
   ----------------------------------------------- */}
     <div className="row skill">
       <div className="three columns header-col">
-        <h1><span>Skills</span></h1>
+        <h1><span>Projects</span></h1>
       </div>
       <div className="nine columns main-col">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-          voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-          voluptatem sequi nesciunt.
+        <p>
+            The images below have link buttons to each project
         </p>
-        <div className="bars">
-          <ul className="skills">
-            <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-            <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-            <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
-            <li><span className="bar-expand css" /><em>CSS</em></li>
-            <li><span className="bar-expand html5" /><em>HTML5</em></li>
-            <li><span className="bar-expand jquery" /><em>jQuery</em></li>
-          </ul>
-        </div>{/* end skill-bars */}
+        <div className="row item">
+          <div className="twelve columns">
+          <br /><br />
+            <h3>This Online Portfolio</h3>
+            <p className="info">React/JSX/javascript/CSS/Bootstrap/HTML <span>•</span> <em className="date">2020</em></p>
+            <p>
+            Deployed with routing to github pages.
+            </p>
+          </div>
+        </div> {/* item end */}
+
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>BCCNP Request for Proposal Response</h3>
+            <p className="info">Project Management<span>•</span> <em className="date">2020</em></p>
+            <p>
+            Project management, co-leading with Dr. Gurprit Randhawa,
+            leading a team of UX experts bidding on public-sector RFP proposals.
+            </p>
+          </div>
+        </div> {/* item end */}
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>Island Health’s Code Hack 2020</h3>
+            <p className="info">Project Management/UX Design<span>•</span> <em className="date">2020</em></p>
+            <p>
+            Researched, conducted interviews, and developed an app utilizing Island Health’s current web
+            infrastructure to personalize health records.
+            </p>
+          </div>
+        </div> {/* item end */}
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>UVic Rocketry's prototype hybrid engine controls and instrumentation</h3>
+            <p className="info">Project Management/LabView/Arduino IDE<span>•</span> <em className="date">2018-present</em></p>
+            <p>
+            Designing software and project management for controls and instrumentation, prototypes,
+            and aside from the hybrid engine, facilitating “Guidance, Navigation, and Control” of the current rocket.
+            </p>
+          </div>
+        </div>
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>Battlesnake Coding Competition Entry Snake</h3>
+            <p className="info">Javascript/Express 4 <span>•</span> <em className="date">2019-present</em></p>
+            <p>
+            Designing a decision tree utilizing Express 4 API.
+            </p>
+          </div>
+        </div>
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>UVic Python, Java, and Matlab Machine Learning challenges</h3>
+            <p className="info">Python/Java/Matlab <span>•</span> <em className="date">2018-present</em></p>
+            <p>
+            Completed many complex tasks in object-oriented programming languages to
+            demonstrate language and algorithm proficiency. All full project codes are
+            posted to github. These projects were completed for credit in CSC 110 and 115,
+            and ECE 485 at UVic.
+            </p>
+          </div>
+        </div>
       </div> {/* main-col end */}
     </div> {/* End skills */}
   </section>

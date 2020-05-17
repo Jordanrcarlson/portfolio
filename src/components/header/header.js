@@ -17,9 +17,9 @@ export default class Header extends Component {
         <ul id="nav" className="nav">
           <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
           <li><a className="smoothscroll" href="#about">About</a></li>
-          <li><a className="smoothscroll" href="#resume">Resume</a></li>
-          <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-          <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
+          <li><a className="smoothscroll" href="#resume">Experience</a></li>
+          <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
+          <li><a className="smoothscroll" href="#testimonials">References   </a></li>
           <li><a className="smoothscroll" href="#contact">Contact</a></li>
         </ul> {/* end #nav */}
       </nav> {/* end #nav-wrap */}
@@ -28,15 +28,14 @@ export default class Header extends Component {
       <div className="row banner">
         <div className="banner-text">
           <h2>Jordan Carlson </h2>
-          <h3>A software and electrical engineering student based in Victoria, BC.
-          <span> I am searching for a co-op opportunity for Fall, 2020. </span>
-             I hope you scroll on to see my <a className="smoothscroll" href="#resume"> experience </a> and
+          <h3>A software and electrical engineering student based in Victoria, BC. </h3>
+        <h3>  <span> Searching for a co-op opportunity for Fall, 2020. </span> </h3>
+             <h3>I hope you scroll on to view my <a className="smoothscroll" href="#resume"> experience </a> and
              <a className="smoothscroll" href="#portfolio"> portfolio.</a> </h3>
           <hr />
           <ul className="social">
-            <li><a href="#"><i className="fa fa-github" /></a></li>
-            <li><a href="#"><i className="fa fa-twitter" /></a></li>
-            <li><a href="#"><i className="fa fa-linkedin" /></a></li>
+            <li><a href="https://github.com/Jordanrcarlson"><i className="fa fa-github" /></a></li>
+            <li><a href="https://ca.linkedin.com/in/jordan-carlson-9917ba128"><i className="fa fa-linkedin" /></a></li>
 
           </ul>
         </div>
