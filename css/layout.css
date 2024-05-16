@@ -1016,7 +1016,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* Image */
 /* #profilepic { height: 2100px; width: 1400px; overflow: hidden; } */
-/* #profilepic { height: 100px; width: 100px; overflow: hidden; } */
-.nostretch img {
+#profilepic { height: 100px; width: 100px; overflow: hidden; }
+/* .nostretch img {
    object-fit: cover;
- }
+ } */
