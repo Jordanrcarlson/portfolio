@@ -1011,3 +1011,12 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+
+/* Image */
+/* #profilepic { height: 2100px; width: 1400px; overflow: hidden; } */
+/* #profilepic { height: 100px; width: 100px; overflow: hidden; } */
+/* .nostretch img {
+   object-fit: cover;
+ } */

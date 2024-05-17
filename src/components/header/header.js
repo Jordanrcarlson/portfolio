@@ -28,8 +28,8 @@ export default class Header extends Component {
       <div className="row banner">
         <div className="banner-text">
           <h2>Jordan Carlson </h2>
-          <h3>A software and electrical engineering student based in Victoria, BC. </h3>
-        <h3>  <span> Searching for a co-op opportunity for Fall, 2020. </span> </h3>
+          <h3>An intermediate software and electrical engineering developer based in Victoria, BC. </h3>
+        <h3>  <span> Searching for full-time employment to start immediately. </span> </h3>
              <h3>I hope you scroll on to view my <a className="smoothscroll" href="#resume"> experience </a> and
              <a className="smoothscroll" href="#portfolio"> portfolio.</a> </h3>
           <hr />
