@@ -216,9 +216,7 @@ ul#nav li.current a { color: #F06000; }
 #about .profile-pic {
    position: relative;
    width: 400px;
-   height: 300px;
-   /* width: 400;
-   height: 250px; */
+   height: 210px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
