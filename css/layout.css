@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 80%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -213,12 +213,13 @@ ul#nav li.current a { color: #F06000; }
    line-height: 30px;
    color: #7A7A7A;
 }
-#about .profile-pic {
+.profile-pic {
    width: 100%;
    height: auto;
    border-radius: 0; /* Remove this if it was set to make the image circular */
    object-fit: cover; /* This will ensure the image covers the container without stretching */
- } 
+ }
+ 
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -688,8 +689,8 @@ width: 10%
 #testimonials .picture { width: 30%; }
 
 #testimonials .refpic {
-max-width = 300;
-max-height = 300;
+max-width: 300;
+max-height: 300;
 }
 
 /*	Blockquotes */
@@ -765,7 +766,7 @@ header .banner-text h3 a {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
 .flex-control-paging li a {
     width: 12px;
