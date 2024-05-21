@@ -217,7 +217,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
    width: 400px;
    /* height: 210px; */
-   height: 400px;
+   height: 450px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
