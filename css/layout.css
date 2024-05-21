@@ -214,12 +214,11 @@ ul#nav li.current a { color: #F06000; }
    color: #7A7A7A;
 }
 #about .profile-pic {
-   position: relative;
-   width: 400px;
-   height: 210px;
-   /* height: 500px; /* height explodes between 400 and 500 */
-   border-radius: 100%;
-}
+   width: 100%;
+   height: auto;
+   border-radius: 0; /* Remove this if it was set to make the image circular */
+   object-fit: cover; /* This will ensure the image covers the container without stretching */
+ } 
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
