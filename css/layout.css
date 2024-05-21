@@ -213,8 +213,8 @@ ul#nav li.current a { color: #F06000; }
    line-height: 30px;
    color: #7A7A7A;
 }
-.profile-pic {
-   width: 100%;
+#about .profile-pic {
+   width: 80%;
    height: auto;
    border-radius: 0; /* Remove this if it was set to make the image circular */
    object-fit: cover; /* This will ensure the image covers the container without stretching */
