@@ -216,7 +216,7 @@ ul#nav li.current a { color: #F06000; }
 #about .profile-pic {
    position: relative;
    width: 400px;
-   height: 400px;
+   height: 350px;
    /* width: 400;
    height: 250px; */
    border-radius: 100%;
