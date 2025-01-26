@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 80%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -688,8 +688,8 @@ width: 10%
 #testimonials .picture { width: 30%; }
 
 #testimonials .refpic {
-max-width = 300;
-max-height = 300;
+max-width: 300;
+max-height: 300;
 }
 
 /*	Blockquotes */
@@ -765,7 +765,7 @@ header .banner-text h3 a {
     margin: 0 6px;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
 .flex-control-paging li a {
     width: 12px;
