@@ -215,9 +215,10 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 100%; /* Ensure it scales with the container */
-   max-width: 400px; /* Constrain the maximum width */
+   width: auto; /* Maintain aspect ratio */
+   max-width: 100%; /* Ensure it scales with the container */
    height: auto; /* Maintain aspect ratio */
+   max-height: 400px; /* Constrain the maximum height */
    border-radius: 50%; /* Ensure it's a circle */
    object-fit: cover; /* Ensure the image covers the container without stretching */
 }
