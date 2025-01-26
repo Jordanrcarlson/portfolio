@@ -215,9 +215,10 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 400px;
+   width: 100%; /* Ensure it scales with the container */
+   max-width: 400px; /* Constrain the maximum width */
    height: auto; /* Maintain aspect ratio */
-   border-radius: 100%;
+   border-radius: 50%; /* Ensure it's a circle */
    object-fit: cover; /* Ensure the image covers the container without stretching */
 }
 #about .contact-details { width: 41.66667%; }
