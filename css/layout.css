@@ -764,7 +764,7 @@ header .banner-text h3 a {
 .flex-control-nav {
    width: 100%;
    position: absolute;
-   bottom: -20px; /* Adjust this value to move the dots further down */
+   bottom: -100px; /* Adjust this value to move the dots further down */
    left: 50%;
    transform: translateX(-50%);
    text-align: center;
