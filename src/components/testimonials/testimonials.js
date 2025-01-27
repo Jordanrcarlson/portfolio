@@ -11,10 +11,73 @@ export default class Header extends Component {
           <div className="text-container">
             <div className="row">
 
-              <h1>Industry References </h1>
+              <h1>Industry References</h1>
               <div className="ten columns flex-container">
                 <div className="flexslider">
                   <ul className="slides">
+                    <li>
+                    <div className="three columns header-col">
+                      <h1><span></span></h1>
+                    </div>
+
+                    <div className="row banner">
+                      <div className="banner-text">
+                      <div className="columns contactinfo">
+                        <h3><span>Name: Sergio Perez</span><br />
+                        Title: CEO<br />
+                        <span>Company: Salyx Medical</span><br />
+                        Location: Victoria, BC<br />
+                        <span>Phone: (250) 857-9343</span><br />
+                        Referral: Embedded System Integration/Development</h3>
+                      </div>
+                      <div class="columns picture">
+                        <img className="refpic" src="images/portfolio/sergio.jpeg" alt="" />
+                      </div>
+                      </div>
+                      </div>
+                    </li> {/* slide ends */}
+                    <li>
+                    <div className="three columns header-col">
+                      <h1><span></span></h1>
+                    </div>
+
+                    <div className="row banner">
+                      <div className="banner-text">
+                      <div className="columns contactinfo">
+                        <h3><span>Name: Farhang Jalilian</span><br />
+                        Title: Product Development Manager<br />
+                        <span>Company: Carmanah Technologies</span><br />
+                        Location: Victoria, BC<br />
+                        <span>Phone: (250) 891-8558</span><br />
+                        Referral: Python Scripting/Embedded System Testing</h3>
+                      </div>
+                      <div class="columns picture">
+                        <img className="refpic" src="images/portfolio/farhang.jpeg" alt="" />
+                      </div>
+                      </div>
+                      </div>
+                    </li> {/* slide ends */}
+                    <li>
+                    <div className="three columns header-col">
+                      <h1><span></span></h1>
+                    </div>
+
+                    <div className="row banner">
+                      <div className="banner-text">
+                      <div className="columns contactinfo">
+                        <h3><span>Name: Nolan Kurylo</span><br />
+                        Title: Software Engineering Team Lead<br />
+                        <span>Company: Ergonomyx Technologies Inc.</span><br />
+                        Location: Victoria, BC<br />
+                        <span>Phone: (780) 753-0732</span><br />
+                        Referral: Embedded Software Development</h3>
+                      </div>
+                      <div class="columns picture">
+                        <img className="refpic" src="images/portfolio/nolan.jpeg" alt="" />
+                      </div>
+                      </div>
+                      </div>
+                    </li> {/* slide ends */}
                     <li>
                     <div className="three columns header-col">
                       <h1><span></span></h1>
