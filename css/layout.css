@@ -452,8 +452,8 @@ ul#nav li.current a { color: #F06000; }
  /* Adjust button styles */
  .columns.download .button {
    display: inline-block;
-   margin: 2px 0; /* Adjust the margin */
-   padding: 5px 10px; /* Adjust the padding */
+   margin: 10px 0; /* Add some margin for spacing between buttons */
+   padding: 10px 20px; /* Adjust the padding as needed */
    white-space: nowrap; /* Prevent text from wrapping within the button */
    font-size: 14px; /* Optionally reduce the font size */
  }
