@@ -436,16 +436,20 @@ ul#nav li.current a { color: #F06000; }
 
 /* Portfolio Content */
 
-.columns.download p {
+.columns.download {
+   width: 100%; /* Ensure the container takes full width */
+ }
+ 
+ .columns.download p {
    display: flex;
    flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
-   gap: 5px; /* Reduce the gap between buttons */
+   gap: 5px; /* Adjust the gap between buttons */
  }
  
  .columns.download .button {
    display: inline-block;
-   margin: 2px 0; /* Reduce the margin */
-   padding: 5px 10px; /* Reduce the padding */
+   margin: 2px 0; /* Adjust the margin */
+   padding: 5px 10px; /* Adjust the padding */
    white-space: nowrap; /* Prevent text from wrapping within the button */
    font-size: 14px; /* Optionally reduce the font size */
  }
