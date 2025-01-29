@@ -437,21 +437,19 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 
 .columns.download {
-   width: 100%; /* Ensure the container takes full width */
+   margin-left: -10ch; /* Move the buttons to the left by 10 characters */
  }
  
  .columns.download p {
    display: flex;
    flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
-   gap: 5px; /* Adjust the gap between buttons */
+   gap: 10px; /* Adjust the gap between buttons as needed */
  }
  
  .columns.download .button {
    display: inline-block;
-   margin: 2px 0; /* Adjust the margin */
-   padding: 5px 10px; /* Adjust the padding */
+   margin: 5px 0; /* Adjust the margin as needed */
    white-space: nowrap; /* Prevent text from wrapping within the button */
-   font-size: 14px; /* Optionally reduce the font size */
  }
 
 #portfolio-wrapper .columns { margin-bottom: 36px; }
