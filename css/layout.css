@@ -437,8 +437,7 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 
 .columns.download {
-   margin-left: -10ch; /* Move the buttons to the left by 10 characters */
- }
+   transform: translateX(-10ch); /* Move the buttons to the left by 10 characters */ }
  
  .columns.download p {
    display: flex;
@@ -451,7 +450,7 @@ ul#nav li.current a { color: #F06000; }
    margin: 5px 0; /* Adjust the margin as needed */
    white-space: nowrap; /* Prevent text from wrapping within the button */
  }
- 
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
