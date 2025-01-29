@@ -435,6 +435,20 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
+
+/* Ensure buttons in the download section do not wrap to the next line */
+.columns.download p {
+   display: flex;
+   flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
+   gap: 10px; /* Adjust the gap between buttons as needed */
+ }
+ 
+ .columns.download .button {
+   display: inline-block;
+   margin: 5px 0; /* Adjust the margin as needed */
+   white-space: nowrap; /* Prevent text from wrapping within the button */
+ }
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
