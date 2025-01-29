@@ -439,16 +439,7 @@ ul#nav li.current a { color: #F06000; }
 .columns.download {
    width: 100%;
  }
- 
- /* Adjust button styles to make each button appear on a new line */
- .columns.download .button {
-   display: block; /* Make each button take up the full width and appear on a new line */
-   margin: 10px 0; /* Add some margin for spacing between buttons */
-   padding: 10px 20px; /* Adjust the padding as needed */
-   white-space: nowrap; /* Prevent text from wrapping within the button */
-   font-size: 14px; /* Optionally adjust the font size */
- }
- 
+
  /* Adjust button styles */
  .columns.download .button {
    display: inline-block;
