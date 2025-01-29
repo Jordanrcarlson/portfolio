@@ -23,7 +23,7 @@ export default class Header extends Component {
                     <div className="row banner">
                       <div className="banner-text">
                       <div className="columns contactinfo">
-                        <h3><span>Name: Sergio Perez</span><br />
+                        <h3><span>Name: Sergio Perez Martell</span><br />
                         Title: CEO<br />
                         <span>Company: Salyx Medical</span><br />
                         Location: Victoria, BC<br />

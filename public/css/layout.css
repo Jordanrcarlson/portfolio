@@ -435,6 +435,20 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
+
+.columns.download {
+   width: 100%;
+ }
+
+ /* Adjust button styles */
+ .columns.download .button {
+   display: inline-block;
+   margin: 10px 0; /* Add some margin for spacing between buttons */
+   padding: 10px 20px; /* Adjust the padding as needed */
+   white-space: nowrap; /* Prevent text from wrapping within the button */
+   font-size: 14px; /* Optionally reduce the font size */
+ }
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;

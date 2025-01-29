@@ -26,10 +26,29 @@ export default class Header extends Component {
         </div> {/* item end */}
         <div className="row item">
           <div className="twelve columns">
-            <h3>University of Victoria</h3>
+            {/* <h3>University of Victoria</h3> */}
             <p className="info">Co-op Work Term Challenges <span>•</span> <em className="date">Engineering Challenges from 2015-2019</em></p>
             <p>
             Completed two work term challenges for credit by formally reporting on engineering challenges faced at Precision Well Servicing.
+            </p>
+          </div>
+        </div> {/* item end */}
+        <div className="row item">
+          <div className="twelve columns">
+            <h3> Engineers and Geoscientists British Columbia (EGBC)</h3>
+            <p className="info">Engineer In Training (EIT) Certification <span>•</span> <em className="date">2025</em></p>
+            <p>
+            Pending Final Approval (Reviewing photo identification and transcripts).
+            </p>
+          </div>
+        </div> {/* item end */}
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>Project Management Institute (PMI)</h3>
+            <p className="info">Project Management Professional (PMP) Certification <span>•</span> <em className="date">2025</em></p>
+            <p>
+            Qualified Approval (4 year bachelor's degree, 36 months of leading projects (18 Months at Precision Well Servicing
+            and 18+ Months at Salyx Medical). The 35 hours of accredited education/training will be completed upon request).
             </p>
           </div>
         </div> {/* item end */}
@@ -42,6 +61,63 @@ export default class Header extends Component {
         <h1><span>Work</span></h1>
       </div>
       <div className="nine columns main-col">
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>Salyx Medical</h3>
+            <p className="info">Lead Embedded Software Developer<span>•</span> <em className="date">2021-2025</em></p>
+            <p>
+            <span>•</span> Led a long-term compact vital signs monitoring system development team to achieve proof-of-concept for 
+            medical-grade accuracies through state-of-the-art hardware application and novel medical research implementation. <br />
+            <span>•</span> Managed projects with Agile methodology using Git with GitLab, Jira and Confluence. <br />
+            <span>•</span> Directed utilizing data processing and visualization to validate and improve the grade of measurement certainties for 
+            accurate advertising and to prepare for clinical test trials. <br />
+            <span>•</span> Prioritized debugging for C, C++, and open-source EDA embedded systems for the optimization of 
+            memory, processing speed, power, sensitive sensor integration, and feature extraction for machine learning.
+            </p>
+          </div>
+        </div> {/* item end */}
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>Carmanah Technologies</h3>
+            <p className="info">Software Systems and Test Engineer<span>•</span> <em className="date">2022-2023</em></p>
+            <p>
+            <span>•</span> Managed testing for embedded software systems for a safety-critical crosswalk system MVP. This revision of 
+            Carmanah's primary product generated $1.6 million in revenue for 2023 and continues to be distributed 
+            with all systems operative.<br />
+            <span>•</span> Created and implemented efficient troubleshooting tactics with three embedded software developers, 
+            two product design managers, two hardware specialists and a cloud maintainer.<br />
+            <span>•</span> Collaborated to refine product requirement specifications and develop test strategies for the integrated 
+            software infrastructures.<br />
+            <span>•</span> Created and updated documentation in Confluence with Jira and managed and updated software and firmware 
+            repositories.<br />
+            <span>•</span> Led the creation, testing, and optimization of Python applications to automatically set permanent ROM 
+            values during MVP manufacturing.<br />
+            <span>•</span> Designed and developed a solar crosswalk system simulation with a measurement and automation device system 
+            (with LabJack and Python) to examine long-term, continual system behaviours. <br />
+            <span>•</span> Headed testing system stability and reliability assurance by producing complex unit-testing algorithms for 
+            large firmware datasets. <br />
+            <span>•</span> Structured debugging for app-controlled Bluetooth, OpenThread and Losant MQTT IoT embedded networks, including 
+            for firmware updates. <br />
+            Instantiated full-system quality assurance utilizing Python scripting to continuously program an RS-232 power 
+            source with Tera Term serial communication for automated, documented tests.
+            </p>
+          </div>
+        </div> {/* item end */}
+        <div className="row item">
+          <div className="twelve columns">
+            <h3>Ergonomyx Technologies Inc.</h3>
+            <p className="info">Embedded Software Developer<span>•</span> <em className="date">2022-2023</em></p>
+            <p>
+            <span>•</span> Managed feature development for IoT devices from MVP completion to several production waves, verifying product 
+            stability reliability and generating $1 million in revenue.<br />
+            <span>•</span> Wrote approved grant applications from applied development processes.<br />
+            <span>•</span> Granted a patent for the Ergonomyx smart workplace fitness ecosystem.<br />
+            <span>•</span> Developed tests for UL safety inspection and certification.<br />
+            <span>•</span> Integrated Bluetooth, Wi-Fi, MQTT, AWS IoT Core cloud connectivity, and the proprietary Ergonomyx API’s 
+            over-the-air firmware updates feature with RTOS.
+            </p>
+          </div>
+        </div> {/* item end */}
         <div className="row item">
           <div className="twelve columns">
             <h3>Precision Well Servicing</h3>

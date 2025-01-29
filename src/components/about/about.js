@@ -39,7 +39,7 @@ export default class Header extends Component {
                     <a href="images/software_resume.pdf" className="button"><i className="fa fa-download" /> Download Resume (Software)   </a>
                     <a href="images/electronics_resume.pdf" className="button"><i className="fa fa-download" /> Download Resume (Electronics)   </a>
                     <a href="images/electrical_resume.pdf" className="button"><i className="fa fa-download" /> Download Resume (Electrical)   </a>
-                    <a href="images/manager_resume.pdf" className="button"><i className="fa fa-download" /> Download Resume (Engineering Manager)   </a>
+                    <a href="images/manager_resume.pdf" className="button"><i className="fa fa-download" /> Download Resume (Engineering Management)   </a>
                     <a href="images/coverletter.pdf" className="button"><i className="fa fa-download" />Download Cover Letter (Generic)</a>
                   </p>
                 </div>

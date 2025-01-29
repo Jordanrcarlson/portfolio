@@ -10,7 +10,7 @@ export default class Header extends Component {
   <section id="portfolio">
          <div className="row">
            <div className="twelve columns collapsed">
-             <h1>My Software and User Interface Portfolio</h1>
+             <h1>My Software and Hardware Portfolio</h1>
              {/* portfolio-wrapper */}
              <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                <div className="columns portfolio-item">
