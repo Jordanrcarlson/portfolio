@@ -436,17 +436,17 @@ ul#nav li.current a { color: #F06000; }
 
 /* Portfolio Content */
 
-/* Ensure the container takes full width */
 .columns.download {
    width: 100%;
  }
  
- /* Use flexbox to align buttons inline and prevent wrapping */
- .columns.download p {
-   display: flex;
-   flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
-   gap: 5px; /* Adjust the gap between buttons as needed */
-   justify-content: flex-start; /* Align buttons to the left */
+ /* Adjust button styles to make each button appear on a new line */
+ .columns.download .button {
+   display: block; /* Make each button take up the full width and appear on a new line */
+   margin: 10px 0; /* Add some margin for spacing between buttons */
+   padding: 10px 20px; /* Adjust the padding as needed */
+   white-space: nowrap; /* Prevent text from wrapping within the button */
+   font-size: 14px; /* Optionally adjust the font size */
  }
  
  /* Adjust button styles */
