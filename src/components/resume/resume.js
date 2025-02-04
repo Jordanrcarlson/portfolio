@@ -123,7 +123,7 @@ export default class Header extends Component {
             <h3>Precision Well Servicing</h3>
             <p className="info">Derrickhand (5-Man Crew Lead Hand)<span>•</span> <em className="date">2015-2019</em></p>
             <p>
-            led crews of oil rig workers completing demanding, technical oil and gas engineering
+            Led crews of oil rig workers completing demanding, technical oil and gas engineering
             operations working long hours and very consistently throughout the 4 years of work.
             </p>
           </div>
@@ -131,7 +131,7 @@ export default class Header extends Component {
         <div className="row item">
           <div className="twelve columns">
             <h3>First Impressions Business Promotions and BBB of Vancouver Island</h3>
-            <p className="info"><span>VP of Sales and Administration</span> <em className="date">2010-2015</em></p>
+            <p className="info">VP of Sales and Administration<span>•</span> <em className="date">2010-2015</em></p>
             <p>
             Sales and Administration; managed projects, upheld client relationships,
             generated new business, conducted ethics reviews, and facilitated graphic design projects.
@@ -142,21 +142,85 @@ export default class Header extends Component {
     </div> {/* End Work */}
     {/* Skills
   ----------------------------------------------- */}
+
+
+  
     <div className="row skill">
       <div className="three columns header-col">
         <h1><span>Projects</span></h1>
       </div>
       <div className="nine columns main-col">
         <p>
-            The images below have link buttons to each project
+            Each of these project has a link to them below this section within the modals (images) representing them. <br />
+            Hover over the modals to see a brief description of the project. Click on the modals to see the full projects.
         </p>
+
+        <div className="row item">
+          <div className="twelve columns">
+          <br /><br />
+            <h3>IoT Actuator/Button Pusher</h3>
+            <p className="info">Solidworks/3D-Printing/C++<span>•</span> <em className="date">2024-2025</em></p>
+            <p>
+            Creating a compact IoT device with a microcontroller, a 28YBJ-48 stepper motor, the ULN2003 driver,
+            a Solidworks CAD design and then printed using an at-home 3D Printer with Bambu Studio Slicer.
+            This then underwent several firmware and CAD revisions to optimize safety, torque, size, speed, and 3D printing quality. 
+            </p>
+          </div>
+        </div> {/* item end */}
+
+        <div className="row item">
+          <div className="twelve columns">
+          <br /><br />
+            <h3>Personal Cloud System</h3>
+            <p className="info">No-Code/React/SQL/C++/C/Python/Apache/Embedded Linux<span>•</span> <em className="date">2024-2025</em></p>
+            <p>
+            Using a no-code platform with a Single Board Computer to create a personal cloud for data storage and sharing.
+            <br /><br />
+            Frontend: React 18.3.1, TypeScript, Vite, Tailwind CSS, React Router DOM, Lucide React, React Masonry CSS, Date-fns <br />
+            Backend/Database: Supabase (PostgreSQL Database, Row Level Security, Storage Bucket, Authentication system, Database functions and policies) <br />
+            Key Features: Media management (photos/videos), public and password-protected folders, album organization, soft delete with 30-day retention, row level security, responsive layout, masonry grid, modal viewers, loading states, interactive forms
+
+            </p>
+          </div>
+        </div> {/* item end */}
+
+        <div className="row item">
+          <div className="twelve columns">
+          <br /><br />
+            <h3>Work Search Automation</h3>
+            <p className="info">Python/Selenium/Magenta<span>•</span> <em className="date">2020-2025</em></p>
+            <p>
+            Optimizing a work search strategy for a software, hardware, and electrical engineer and
+            implementing code to minimize the time spent looking for work and maximize project development time.
+            This involves modularizing the workflow and adding layers of automated abstraction, including using a 
+            webdriver for webscraping and data management, and using leading-edge AI tools.
+            </p>
+          </div>
+        </div> {/* item end */}
+
         <div className="row item">
           <div className="twelve columns">
           <br /><br />
             <h3>This Online Portfolio</h3>
-            <p className="info">React/JSX/javascript/CSS/Bootstrap/HTML <span>•</span> <em className="date">2020</em></p>
+            <p className="info">React/JSX/javascript/CSS/Bootstrap/HTML <span>•</span> <em className="date">2020-2025</em></p>
             <p>
             Deployed with routing to github pages.
+            </p>
+          </div>
+        </div> {/* item end */}
+
+        <div className="row item">
+          <div className="twelve columns">
+          <br /><br />
+            <h3>Residential Renovations</h3>
+            <p className="info">Project Management/AutoCAD/Permit Applications <span>•</span> <em className="date">2021-2022</em></p>
+            <p>
+            Acting as general contractor, organized a full residential renovation. This included creating AutoCAD architectural drawings
+            then submitting them to the structural engineering firm (Herold Engineering) to raise the main beam of the house into the
+            joists with joist hangers, creating a fully functional 1200ft&sup2; basement suite from a storage area, and removing a load bearing
+            wall on the mean beam of the house by installing a recessed beam above the main beam.
+            This also included lining up trades such as plumbers, electricians, HVAC, drywallers, and arborists, ensuring costs were minimized,
+            materials and labour were ordered and scheduled, and the installations were optimized and timed for timely completion.
             </p>
           </div>
         </div> {/* item end */}
@@ -184,7 +248,7 @@ export default class Header extends Component {
         <div className="row item">
           <div className="twelve columns">
             <h3>UVic Rocketry's prototype hybrid engine controls and instrumentation</h3>
-            <p className="info">Project Management/LabView/Arduino IDE<span>•</span> <em className="date">2018-present</em></p>
+            <p className="info">Project Management/Embedded Software/Altium/LabView<span>•</span> <em className="date">2018-2020</em></p>
             <p>
             Designing software and project management for controls and instrumentation, prototypes,
             and aside from the hybrid engine, facilitating “Guidance, Navigation, and Control” of the current rocket.
@@ -192,9 +256,9 @@ export default class Header extends Component {
           </div>
         </div>
         <div className="row item">
-          <div className="twelve columns">
+          <div className="twelve columns"> 
             <h3>Battlesnake Coding Competition Entry Snake</h3>
-            <p className="info">Javascript/Express 4 <span>•</span> <em className="date">2019-present</em></p>
+            <p className="info">Javascript/Express 4 <span>•</span> <em className="date">2019-2020</em></p>
             <p>
             Designing a decision tree utilizing Express 4 API.
             </p>
@@ -203,11 +267,11 @@ export default class Header extends Component {
         <div className="row item">
           <div className="twelve columns">
             <h3>UVic Python, Java, and Matlab Machine Learning challenges</h3>
-            <p className="info">Python/Java/Matlab <span>•</span> <em className="date">2018-present</em></p>
+            <p className="info">Python/Java/Matlab <span>•</span> <em className="date">2018-2020</em></p>
             <p>
             Completed many complex tasks in object-oriented programming languages to
             demonstrate language and algorithm proficiency. All full project codes are
-            posted to github. These projects were completed for credit in CSC 110 and 115,
+            posted to Github. These projects were completed for credit in CSC 110 and 115,
             and ECE 485 at UVic.
             </p>
           </div>
