@@ -616,8 +616,6 @@ ul#nav li.current a {
    /* Four columns */
    gap: 20px;
    /* Adjust the gap between items */
-   justify-items: center;
-   /* Center items horizontally */
 }
 
 /* Ensure each portfolio item takes up one grid cell */
