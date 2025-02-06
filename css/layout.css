@@ -618,6 +618,14 @@ ul#nav li.current a {
    /* Adjust the gap between items */
 }
 
+/* Remove or adjust the ::before pseudo-element for #portfolio-wrapper */
+#portfolio-wrapper::before {
+   content: none;
+   /* Remove any content */
+   display: none;
+   /* Ensure it does not take up space */
+}
+
 /* Ensure each portfolio item takes up one grid cell */
 .columns.portfolio-item {
    width: 100%;
