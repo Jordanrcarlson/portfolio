@@ -449,7 +449,28 @@ ul#nav li.current a { color: #F06000; }
    font-size: 14px; /* Optionally reduce the font size */
  }
 
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+/* Ensure the portfolio container uses CSS Grid */
+#portfolio-wrapper {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); /* Four columns */
+   gap: 20px; /* Adjust the gap between items */
+   justify-items: center; /* Center items horizontally */
+ }
+
+ /* Ensure each portfolio item takes up one grid cell */
+.columns.portfolio-item {
+   width: 100%; /* Ensure items take up full width of grid cell */
+   box-sizing: border-box; /* Ensure padding and border are included in the width */
+ }
+
+ /* Adjust item-wrap to ensure proper alignment */
+.item-wrap {
+   position: relative;
+   overflow: hidden;
+   background: #fff;
+   transition: all 0.3s ease-in-out;
+ }
+ 
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
