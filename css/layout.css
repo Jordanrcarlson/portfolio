@@ -797,6 +797,14 @@ ul#nav li.current a {
    margin-left: 24px;
 }
 
+/* Resize images */
+.resized-image {
+   width: 200px;
+   /* Set the desired width */
+   height: auto;
+   /* Maintain aspect ratio */
+}
+
 
 /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
